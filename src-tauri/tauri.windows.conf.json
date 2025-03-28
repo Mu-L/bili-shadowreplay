@@ -13,5 +13,14 @@
         "theme": "Light"
       }
     ]
+  },
+  "bundle": {
+    "resources": [
+      "resources/cudart64*.dll",
+      "resources/nvrtc64*.dll",
+      "resources/nvrtc-builtins64*.dll",
+      "resources/cublas64*.dll",
+      "resources/cublasLt64*.dll"
+    ]
   }
 }
